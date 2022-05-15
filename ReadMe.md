@@ -1,10 +1,10 @@
-setup Required
+### setup Required
 Java, selenium, Maven, testng.
 related dependencies are added in the POM file.
 Build the Project with the dependencies from the POM file.
 
 
-Steps to Run the test
+### Steps to Run the test
 In the 'PointsActivityPageTest', 
 mention unique EmailID in the createAccount Method call. (modify emailID by changing number and text combination)
 Run the TestNG.XML file.
