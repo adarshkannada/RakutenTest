@@ -6,8 +6,8 @@
       <class name="com.qa.rakuten.tests.PointsActivityPageTest">
         <methods>
           <include name="setup"/>
-          <include name="userAvailablePointsTest"/>
           <include name="tearDown"/>
+          <include name="userPendingPointsTest"/>
         </methods>
       </class> <!-- com.qa.rakuten.tests.PointsActivityPageTest -->
     </classes>

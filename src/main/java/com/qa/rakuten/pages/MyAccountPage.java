@@ -19,9 +19,20 @@ public class MyAccountPage extends TestBase{
 	}
 	
 	
+	public boolean checkMyAccountPageURL() {
+		String currentUrl = driver.getCurrentUrl();
+		boolean urlHasTheWord = currentUrl.contains("personal-information");
+		if(!urlHasTheWord) {
+			//System.out.println("The URL is not correct");
+			return false;
+		} else {
+			//System.out.println("The URL is correct");
+			return true;
+		}
+	}
 	
 	public PointsActivityPage selectPointsActivity() {
-		myActivityLink.click();
+		myActivityLink.click();		
 		return new PointsActivityPage();
 	}
 }

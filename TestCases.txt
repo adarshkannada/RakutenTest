@@ -1,0 +1,15 @@
+verify that the personal information page displays the user details saved during signup.
+firstname, last name, country details are shown correctly.
+
+verify that user can modify the firstname, lastname, country from the personal information page.
+
+verify that user cannot modify the firstname, lastname, country from the personal infformation page
+if correct captcha is not entered.
+
+verfi that user can request for new code by clicking on reload icon beside the captcha code.
+
+verify that user first name and last name on personal information screen matches with name shown on top right corner.
+
+verify that account and security, points activity, services and privacy, signout links are available on the personal information page.
+
+veirfy that 'back to rakuten' link navigates user back to rakuten home page.
